@@ -1613,15 +1613,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Moepheus\\.nuget\\packages\\": {}
+    "C:\\Users\\10649310\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "Shubham",
       "projectName": "Shubham",
-      "projectPath": "E:\\Research\\UIPATH\\workspace\\Shubham\\.local",
-      "packagesPath": "C:\\Users\\Moepheus\\.nuget\\packages\\",
-      "outputPath": "E:\\Research\\UIPATH\\workspace\\Shubham\\.local"
+      "projectPath": "D:\\Shubham\\uipathWorkspace\\.local",
+      "packagesPath": "C:\\Users\\10649310\\.nuget\\packages\\",
+      "outputPath": "D:\\Shubham\\uipathWorkspace\\.local"
     },
     "frameworks": {
       "net461": {
