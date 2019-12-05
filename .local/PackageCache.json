@@ -108,6 +108,19 @@
         "C:\\Users\\10649310\\.nuget\\packages\\uipath.vision/1.8.1\\lib/net452/UiPath.Vision.Tesseract.dll",
         "C:\\Users\\10649310\\.nuget\\packages\\uipath.vision/1.8.1\\lib/net452/UiPath.Vision.dll"
       ]
+    },
+    {
+      "Package": {
+        "Id": "UiPath.FTP.Activities",
+        "Version": "1.0.7053.27728"
+      },
+      "Assemblies": [
+        "C:\\Users\\10649310\\.nuget\\packages\\fluentftp/19.1.2\\lib/net45/FluentFTP.dll",
+        "C:\\Users\\10649310\\.nuget\\packages\\ssh.net/2016.1.0\\lib/net40/Renci.SshNet.dll",
+        "C:\\Users\\10649310\\.nuget\\packages\\uipath.ftp.activities/1.0.7053.27728\\lib/net452/UiPath.FTP.Activities.Design.dll",
+        "C:\\Users\\10649310\\.nuget\\packages\\uipath.ftp.activities/1.0.7053.27728\\lib/net452/UiPath.FTP.Activities.dll",
+        "C:\\Users\\10649310\\.nuget\\packages\\uipath.ftp.activities/1.0.7053.27728\\lib/net452/UiPath.FTP.dll"
+      ]
     }
   ],
   "Conflicts": [],
@@ -145,6 +158,11 @@
     "Extended.Wpf.Toolkit": {
       "Id": "Extended.Wpf.Toolkit",
       "Version": "2.8.0",
+      "Dependencies": []
+    },
+    "FluentFTP": {
+      "Id": "FluentFTP",
+      "Version": "19.1.2",
       "Dependencies": []
     },
     "Humanizer.Core": {
@@ -207,6 +225,11 @@
       "Version": "1.0.0",
       "Dependencies": []
     },
+    "SSH.NET": {
+      "Id": "SSH.NET",
+      "Version": "2016.1.0",
+      "Dependencies": []
+    },
     "System.ValueTuple": {
       "Id": "System.ValueTuple",
       "Version": "4.5.0",
@@ -244,6 +267,20 @@
         {
           "Item1": "SharpZipLib",
           "Item2": "[1.0.0, )"
+        }
+      ]
+    },
+    "UiPath.FTP.Activities": {
+      "Id": "UiPath.FTP.Activities",
+      "Version": "1.0.7053.27728",
+      "Dependencies": [
+        {
+          "Item1": "FluentFTP",
+          "Item2": "[19.1.2, )"
+        },
+        {
+          "Item1": "SSH.NET",
+          "Item2": "[2016.1.0, )"
         }
       ]
     },
